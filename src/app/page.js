@@ -285,7 +285,7 @@ export default function Home() {
              position: 'relative',
              zIndex: 1
            }}>
-             20
+             23
              <span style={{
                position: 'absolute',
                top: '4px',
@@ -482,7 +482,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              5000.000 sosyal konut, konut aracılığından 100.000 t, konut arsası ve 10.000 sanayi sitesi yapılacak.
+              500.000 sosyal konut, konut aracılığından 100.000 t, konut arsası ve 10.000 sanayi sitesi yapılacak.
             </p>
           </div>
         </div>
