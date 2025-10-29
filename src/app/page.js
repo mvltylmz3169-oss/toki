@@ -206,7 +206,7 @@ export default function Home() {
                <div data-aos-duration="700" data-aos="fade-up"  className="bg-gradient-to-r from-red-600 to-transparent pl-5 py-3 pr-26 rounded-lg w-fit  ">  <h1 className="tracking-wide text-white font-bold  md:text-[26px] text-xl">TEŞEKKÜR EDERİZ</h1> </div>
              </div>
              <h1 data-aos-duration="900" data-aos="fade-up" className="tracking-wide font-bold text-white md:text-[26px] text-2xl md:w-[480px]">İLK EVİM, İLK İŞYERİM PROJESiNDE   1,5 AYDA 8 MİLYON BAŞVURU</h1> 
-             <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white text-[18px] md:w-[480px]">"Ilk Evin" projesinde TOKi bagwuru sistemi ve bankalar üzerinden resmi müracaat süresi tamamlandi. 1,5 ayda 8 miyon bagvuru yopildi, geçerti baguru says 5 mityon 135 bin 324'e ulagtil Projemize sahip cian tom vatandaslanmiza mategeldariz, soz verdigimiz gibi 2 yil icinde 250 bin konutumuzu testim edecegia</p>
+             <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white text-[18px] md:w-[480px]">"Ilk Evim" projesinde TOKİ başvuru sistemi ve bankalar üzerinden resmi müracaat süresi tamamlandi. 1,5 ayda 8 miyon başvuru yapildi geçerli başvuru sayısı 5 milyon 135 bin 324'e ulaştı. Projemize sahip cikan tüm vatandaşlarımıza minnettarız, söz verdiğimiz gibi 2 yil icinde 250 bin konutumuzu teslim edeceğiz.</p>
 
         <div className="absolute md:bottom-10 bottom-5 md:right-10  bg-white rounded-xl shadow-2xl md:p-6 p-3 flex items-center gap-4 max-w-md border border-gray-100">
           <div className="shrink-0">
