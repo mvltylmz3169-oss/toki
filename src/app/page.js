@@ -59,7 +59,7 @@ export default function Home() {
     {
       title: "KONUT",
       icon: "🏠",
-      mainValue: "1 Milyon 170 Bin",
+      mainValue: "1 Milyon 140 Bin",
       subtitle: "Konut",
       socialTitle: "SOSYAL DONATILAR",
       socialItems: [
@@ -212,7 +212,7 @@ export default function Home() {
              <h1 data-aos-duration="900" data-aos="fade-up" className="tracking-wide font-bold text-white md:text-[26px] text-2xl md:w-[480px]">İLK EVİM, İLK İŞYERİM PROJESiNDE   1,5 AYDA 8 MİLYON BAŞVURU</h1> 
           
             <div className="flex flex-col gap-3 md:w-[530px] text-[16px]">
-            <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white  ">İlk Evim” projesinde TOKİ başvuru sistemi ve bankalar üzerinden yapılan resmi müracaat süreci tamamlanmıştır.
+            <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white  ">İlk Evim” projesinde TOKİ başvuru sistemi ve bankalar üzerinden yapılan resmi müracaat süreci devam etmektedir.
             </p>
             <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white  ">1,5 ayda toplam 8 milyon başvuru yapılmış, geçerli başvuru sayısı 5 milyon 135 bin 324’e ulaşmıştır.
             </p>
