@@ -158,18 +158,22 @@ export default function Home() {
           : 'top-2.5 w-3/5 left-1/2 -translate-x-1/2 rounded-2xl bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-2xl'
         : 'top-0 w-full bg-transparent'
     }`}> 
-     <div className={`flex borderitems-center ${isMobile && isScrolled ? 'justify-between' : 'justify-between'} transition-all duration-500 ${
-       isScrolled ? 'px-5 py-2 h-18' : 'px-15 py-0 h-40'
+     <div className={`flex borderitems-center ${
+       isMobile && isScrolled ? 'justify-between' : isMobile && !isScrolled ? 'justify-start' : 'justify-between'
+     } transition-all duration-500 ${
+       isScrolled ? 'px-5 py-2 h-18' : isMobile && !isScrolled ? 'pl-[12px] pr-15 py-0 h-36' : 'px-15 py-0 h-40'
      }`}>
       {/* Logolar - Mobilde sadece scroll olmadığında, webde her zaman */}
-      <div className={`flex gap-6 items-center ${isMobile ? 'justify-center' : 'justify-center'} transition-all duration-500 ${
+      <div className={`flex gap-6 items-center ${
+        isMobile && !isScrolled ? 'justify-start' : 'justify-center'
+      } transition-all duration-500 ${
         isMobile && isScrolled ? 'hidden' : ''
       }`}> 
        <img className={`object-contain transition-all duration-500 ${
-         isScrolled ? 'w-32 h-32' : isMobile ? 'w-40 h-40' : 'w-80 h-80'
+         isScrolled ? 'w-36 h-32' : isMobile ? 'w-48 h-48' : 'w-80 h-80'
        }`} src="https://www.freelogovectors.net/wp-content/uploads/2022/10/csb-cevre_sehircilik_ve_iklim_degisikligi_bakanligi_logo-freelogovectors.net_.png" alt="TOKİ" />
        <img className={`object-contain transition-all duration-500 ${
-         isScrolled ? 'w-28 h-28' : isMobile ? 'w-36 h-36' : 'w-70 h-70'
+         isScrolled ? 'w-28 h-28' : isMobile ? 'w-34 h-34' : 'w-70 h-70'
        }`} src="https://upload.wikimedia.org/wikipedia/tr/archive/3/3d/20210728212306%21Toki_logo.png" alt="TOKİ" />
       </div>
       
@@ -404,7 +408,7 @@ export default function Home() {
             SOSYAL KONUT HAMLESİ
           </h2>
           <p data-aos-duration="1100" data-aos="fade-up" className="text-gray-600 md:text-md text-sm max-w-3xl mx-auto">
-            Projede 2+1, 3+1 konutlar aracılık, VDV'siz olarak en uygun fiyatlar ve ödeme seçenekleri sunulacak.
+            Projede 2+1, 3+1 konutlar aracılık, KDV'siz olarak en uygun fiyatlar ve ödeme seçenekleri sunulacak.
           </p>
         </div>
 
@@ -426,7 +430,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Daha önce ev sahibi olmayanlar çok uygun fiyatlara ev sahibi olacak.
+            İlk defa ev sahibi olacak vatandaşlarımız, 240 aya varan vadelerle çok uygun fiyatlarla konut sahibi olabilecekler.
             </p>
           </div>
 
@@ -491,7 +495,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              İstanbul'da 50.000, Ankara'da 35.000, İzmir'de 25.000 sosyal konut inşa edilecek.
+              İstanbul'da 100.000, Ankara'da 30.823, İzmir'de 21.020 sosyal konut inşa edilecek.
             </p>
           </div>
 
