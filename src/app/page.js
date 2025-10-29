@@ -232,7 +232,7 @@ export default function Home() {
 
           <div className="flex flex-col">
             <p className="text-gray-600 text-sm font-medium mb-1">İlk Evim Son Başvuru Tarihi</p>
-            <p className="text-gray-900 text-lg font-bold">15 Kasım 2026</p>
+            <p className="text-gray-900 text-lg font-bold">19 Aralık 2026</p>
           </div>
         </div>
         
