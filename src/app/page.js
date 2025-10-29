@@ -218,7 +218,7 @@ export default function Home() {
             </p>
             <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white ">Projemize sahip çıkan tüm vatandaşlarımıza teşekkür ederiz.
             </p>
-            <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white ">Söz verdiğimiz gibi, 2 yıl içerisinde 250 bin konutumuzu teslim edeceğiz.
+            <p data-aos-duration="1100" data-aos="fade-up" className="tracking-wide  text-white ">Söz verdiğimiz gibi, 2 yıl içerisinde 500 bin konutumuzu teslim edeceğiz.
             </p>
 
             </div>
@@ -296,7 +296,7 @@ export default function Home() {
                fontWeight: 'none',
                zIndex: -1,
                pointerEvents: 'none'
-             }}>20</span>
+             }}>23</span>
            </span> YILDA
          </p>
          <p data-aos-duration="900" data-aos="fade-up" className="text-4xl font-bold relative z-10">   Neler Yaptık? </p>
@@ -462,7 +462,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Türkiye'nin her yerinde 2+1 ve 3+1 sosyal konut imkanı sağlanacak.
+              Türkiye'nin her yerinde 1+1 ve 2+1 sosyal konut imkanı sağlanacak.
             </p>
           </div>
 
@@ -476,13 +476,13 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2" style={{ color: '#074580' }}>
-                  350.000<br />
+                  500.000<br />
                   Sosyal Konut
                 </h3>
               </div>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              250.000 sosyal konut, konut aracılığından 100.000 alyapı, konut arsası ve 10.000 sanayi sitesi yapılacak.
+              5000.000 sosyal konut, konut aracılığından 100.000 t, konut arsası ve 10.000 sanayi sitesi yapılacak.
             </p>
           </div>
         </div>
