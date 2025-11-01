@@ -686,7 +686,7 @@ export default function Home() {
           </div>
 
           {/* Orta - Başvuru Butonu */}
-          <div data-aos-duration="900" data-aos="fade-up" className="flex-1 flex justify-center cursor-pointer">
+          <div onClick={RedirectToToki} data-aos-duration="900" data-aos="fade-up" className="flex-1 flex justify-center cursor-pointer">
             <button className="bg-green-500 hover:bg-green-600 cursor-pointer text-white px-10 py-4 rounded-full text-xl font-bold flex items-center gap-3 transition-all hover:shadow-2xl group">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
